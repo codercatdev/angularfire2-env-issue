@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content padding>
-    <button ion-button full large color="primary" (click)="login('google')" *ngIf="user">Signout</button>
+    <button ion-button full large color="primary" (click)="signout()" *ngIf="user">Signout</button>
   <button ion-button full large color="danger" (click)="login('google')" *ngIf="user == null">
     <ion-icon padding name="logo-google"></ion-icon>
     Signin with Google
