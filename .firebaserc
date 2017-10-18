@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "environment-sample-dev",
+    "prod":"environment-sample-prod"
+  }
+}

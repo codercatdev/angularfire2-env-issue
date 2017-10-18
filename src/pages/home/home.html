@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Testing Firebase AngularFire
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button full large color="primary" (click)="login('google')" *ngIf="user">Signout</button>
+  <button ion-button full large color="danger" (click)="login('google')" *ngIf="user == null">
+    <ion-icon padding name="logo-google"></ion-icon>
+    Signin with Google
+  </button>
+  <ion-list>
+  <ion-item>
+    <h2>This page should be logging into:</h2>
+    <p>{{firebase.projectId}}</p>
+  </ion-item>
+</ion-list>
+</ion-content>
