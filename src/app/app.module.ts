@@ -12,6 +12,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 console.log('The project being used for authentication should be coming from bundle...')
 
+console.log(ENV);
 @NgModule({
   declarations: [
     MyApp,

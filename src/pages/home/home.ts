@@ -22,9 +22,7 @@ export class HomePage {
       this.firebase = ENV.firebase;
       this.afAuth.authState.subscribe(
         user => {
-          if (user && user.uid) {
             this.user = user
-          }
         });
   }
   login(provider: string) {
