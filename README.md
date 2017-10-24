@@ -1,15 +1,14 @@
-#What is this repo used for?
-
+# What is this repo used for?
 This shows how to use ionic framework with @ionic/app-scripts@3.0.0 to allow building of any environment file.
+
+The original solution (but this doesn't work with AOT compiler)
+https://github.com/gshigeto/ionic-environment-variables
 
 Issue 1205 in ionic-cli
 https://github.com/ionic-team/ionic-cli/issues/1205
 
 Also referenced in Issue 1006 for ionic-app-scripts
 https://github.com/ionic-team/ionic-app-scripts/issues/1006
-
-The original solution (but this doesn't work with AOT compiler)
-https://github.com/gshigeto/ionic-environment-variables
 
 # Clone
 git clone <this repo>
