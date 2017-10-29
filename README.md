@@ -48,7 +48,7 @@ standard ionic serve will run on 8100(or next available) and pickup your env/env
     "ionic:serve": "ionic-app-scripts serve",
     "ionic:build:dev": "cross-env MY_ENV=dev ionic-app-scripts build",
     "ionic:build:dev:prod": "cross-env MY_ENV=dev ionic-app-scripts build --prod",
-    "ionic:build:prod:prod": "cross-env MY_ENV=dev ionic-app-scripts build --prod"
+    "ionic:build:prod:prod": "cross-env MY_ENV=prod ionic-app-scripts build --prod"
   },
   "config": {
     "ionic_copy": "./config/copy.config.js",
