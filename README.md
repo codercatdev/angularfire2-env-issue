@@ -11,26 +11,36 @@ Also referenced in Issue 1006 for ionic-app-scripts
 https://github.com/ionic-team/ionic-app-scripts/issues/1006
 
 # Clone
+```
 git clone <this repo>
+```
 
 # Firebase testing
 
 Make sure you have firebase CLI installed
 npm install -g firebase-tools
 
--npm install
+```
+npm install
+```
 
 ## Dev
+```
 npm run build ionic:build:dev:prod
 
 firebase serve
+```
+
 Go to localhost:5000
 -> should log you into environment-sample-dev.firebaseapp.com
 
 ## Prod
+```
 npm run build ionic:build:prod:prod
 
 firebase serve
+```
+
 Go to localhost:5000
 -> should log you into environment-sample-prod.firebaseapp.com
 
