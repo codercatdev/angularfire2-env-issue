@@ -132,7 +132,7 @@ declare module '*.json' {
 }
 ```
 
-## src/environments/environment
+## src/environments/environment.ts
 Allow typescript to the configs
 ```
 import { Environment } from './environment.model';
